@@ -14,6 +14,11 @@
   <tr>
     <td>Foloowers: <%= user.followers.count %></td>
   </tr>
+  <tr>
+    <td>
+      <%= render 'relationships/btn', user: @user %>
+    </td>
+  </tr>
 </table>
 　
 <div class='row'>
